@@ -1,0 +1,23 @@
+{
+  "name": "@lifeomic/typescript-config",
+  "version": "0.0.0",
+  "main": "tsconfig.json",
+  "repository": {},
+  "author": "Development <development@lifeomic.com>",
+  "license": "UNLICENSED",
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "lint": "eslint . -f codeframe"
+  },
+  "devDependencies": {
+    "@lifeomic/eslint-config-standards": "^1.2.0",
+    "conventional-changelog-conventionalcommits": "^4.6.0",
+    "eslint": "^7.32.0",
+    "semantic-release": "^17.4.4"
+  },
+  "resolutions": {
+    "@semantic-release/npm": "7.0.x"
+  }
+}
