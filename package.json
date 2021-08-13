@@ -12,6 +12,7 @@
     "lint": "eslint . -f codeframe"
   },
   "devDependencies": {
+    "@lifeomic/dev-tools": "^9.0.1",
     "@lifeomic/eslint-config-standards": "^1.2.0",
     "conventional-changelog-conventionalcommits": "^4.6.0",
     "eslint": "^7.32.0",
