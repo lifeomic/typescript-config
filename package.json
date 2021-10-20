@@ -4,7 +4,7 @@
   "main": "tsconfig.json",
   "repository": {},
   "author": "Development <development@lifeomic.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
