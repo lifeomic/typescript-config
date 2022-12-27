@@ -12,12 +12,12 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "lint": "eslint . -f codeframe"
+    "lint": "eslint ."
   },
   "devDependencies": {
-    "@lifeomic/eslint-config-standards": "^1.2.0",
-    "conventional-changelog-conventionalcommits": "^4.6.0",
-    "eslint": "^7.32.0",
-    "semantic-release": "^19.0.3"
+    "@lifeomic/eslint-config-standards": "^3.0.1",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "eslint": "^8.30.0",
+    "semantic-release": "^19.0.5"
   }
 }
