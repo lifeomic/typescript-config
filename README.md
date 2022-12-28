@@ -11,3 +11,6 @@ Add `@lifeomic/typescript-config` as a dev dependency, put the following in the 
   ...
 }
 ```
+
+Latest Breaking changes:
+* Builds to ES2022 output for nodejs 18
