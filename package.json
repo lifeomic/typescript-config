@@ -15,9 +15,9 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@lifeomic/eslint-config-standards": "^3.0.1",
-    "conventional-changelog-conventionalcommits": "^5.0.0",
-    "eslint": "^8.30.0",
-    "semantic-release": "^19.0.5"
+    "@lifeomic/eslint-config-standards": "^3.2.0",
+    "conventional-changelog-conventionalcommits": "^6.1.0",
+    "eslint": "^8.45.0",
+    "semantic-release": "^21.0.7"
   }
 }

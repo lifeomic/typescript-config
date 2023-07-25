@@ -10,17 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     environment: npm
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 14
-      - name: Lint
-        run: |
-          yarn
-          yarn lint
+          node-version: 18
+      - run: yarn
+      - run: yarn lint
       - name: Publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{secrets.LIFEOMIC_NPM_TOKEN}}
-        run: |
-          npx semantic-release
+        run: npx semantic-release
