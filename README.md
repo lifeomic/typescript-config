@@ -12,5 +12,10 @@ Add `@lifeomic/typescript-config` as a dev dependency, put the following in the 
 }
 ```
 
+Requirements:
+* TypeScript `>=5.0.0` (TypeScript 5, 6, and native TypeScript 7)
+* Node.js 18+
+
 Latest Breaking changes:
-* Builds to ES2022 output for nodejs 18
+* `module` and `moduleResolution` are `nodenext`. TypeScript 6 deprecated `moduleResolution: node` (`node10`); TypeScript 7 removes it. Consumers can still override in their own `tsconfig.json`.
+* Builds to ES2022 output for Node.js 18+
